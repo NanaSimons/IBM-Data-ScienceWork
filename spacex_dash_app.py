@@ -20,7 +20,7 @@ app.layout = html.Div(children=[
             style={'textAlign': 'center', 'color': '#503D36','font-size': 40}),
  
                                 # TASK 1: Add a dropdown list to enable Launch Site selection
-                                 # TASK 1: Add a dropdown list to enable Launch Site selection
+                                 
     dcc.Dropdown(
         id='site-dropdown',
         options=[
@@ -38,7 +38,7 @@ app.layout = html.Div(children=[
                                # TASK 2: Add a pie chart to show the total successful launches count for all sites
     html.Div(dcc.Graph(id='success-pie-chart')),
     html.Br(),
- 
+ #Task 3
     html.P("Payload range (Kg):"),
     dcc.RangeSlider(
         id='payload-slider',
